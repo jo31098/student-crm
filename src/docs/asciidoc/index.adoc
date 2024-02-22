@@ -1,0 +1,241 @@
+= student-crm-monolith documentation
+
+== Add a new course
+.HTTP Request
+include::build/generated-snippets/add-course/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/add-course/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/add-course/curl-request.adoc[]
+
+== Add a new course where the provided name is too long
+.HTTP Request
+include::build/generated-snippets/add-course_returns_-custom-exception_with_error-type_course_name_too_long/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/add-course_returns_-custom-exception_with_error-type_course_name_too_long/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/add-course_returns_-custom-exception_with_error-type_course_name_too_long/curl-request.adoc[]
+
+== Get a course by its ID
+.HTTP Request
+include::build/generated-snippets/get-course-by-id/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-course-by-id/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-course-by-id/curl-request.adoc[]
+
+== Get a course by its ID where the provided ID does not exist
+.HTTP Request
+include::build/generated-snippets/get-course-by-id_returns_-custom-exception_with_error-type_course_not_found/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-course-by-id_returns_-custom-exception_with_error-type_course_not_found/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-course-by-id_returns_-custom-exception_with_error-type_course_not_found/curl-request.adoc[]
+
+== Get all courses
+.HTTP Request
+include::build/generated-snippets/get-all-courses/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-all-courses/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-all-courses/curl-request.adoc[]
+
+== Get all students of a certain course (by course-ID)
+.HTTP Request
+include::build/generated-snippets/get-students-of-course/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-students-of-course/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-students-of-course/curl-request.adoc[]
+
+== Get all students of a certain course (by course-ID) where the provided ID does not exist
+.HTTP Request
+include::build/generated-snippets/get-students-of-course_returns_-custom-exception_with_error-type_course_not_found/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-students-of-course_returns_-custom-exception_with_error-type_course_not_found/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-students-of-course_returns_-custom-exception_with_error-type_course_not_found/curl-request.adoc[]
+
+== Edit a course
+.HTTP Request
+include::build/generated-snippets/edit-course/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-course/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-course/curl-request.adoc[]
+
+== Edit a course where the provided name is too long
+.HTTP Request
+include::build/generated-snippets/edit-course_returns_-custom-exception_with_error-type_course_name_too_long/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-course_returns_-custom-exception_with_error-type_course_name_too_long/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-course_returns_-custom-exception_with_error-type_course_name_too_long/curl-request.adoc[]
+
+== Edit a course where the provided ID does not exist
+.HTTP Request
+include::build/generated-snippets/edit-course_returns_-custom-exception_with_error-type_course_not_found/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-course_returns_-custom-exception_with_error-type_course_not_found/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-course_returns_-custom-exception_with_error-type_course_not_found/curl-request.adoc[]
+
+== Delete a course by its ID
+.HTTP Request
+include::build/generated-snippets/delete-course-by-id/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/delete-course-by-id/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/delete-course-by-id/curl-request.adoc[]
+
+== Delete a course by its ID where the provided ID does not exist
+.HTTP Request
+include::build/generated-snippets/delete-course-by-id_returns_-custom-exception_with_error-type_course_not_found/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/delete-course-by-id_returns_-custom-exception_with_error-type_course_not_found/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/delete-course-by-id_returns_-custom-exception_with_error-type_course_not_found/curl-request.adoc[]
+
+== Add a student
+.HTTP Request
+include::build/generated-snippets/add-student/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/add-student/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/add-student/curl-request.adoc[]
+
+== Add a student where the provided first name is too long
+.HTTP Request
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_first_name_too_long/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_first_name_too_long/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_first_name_too_long/curl-request.adoc[]
+
+== Add a student where the provided last name is too long
+.HTTP Request
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_last_name_too_long/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_last_name_too_long/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_last_name_too_long/curl-request.adoc[]
+
+== Add a student where the provided email has an invalid format
+.HTTP Request
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_invalid_email_format/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_invalid_email_format/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_invalid_email_format/curl-request.adoc[]
+
+== Add a student where the provided email is already taken by another user
+.HTTP Request
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_email_already_taken/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_email_already_taken/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/add-student_returns_-custom-exception_with_error-type_email_already_taken/curl-request.adoc[]
+
+== Get a student by its ID
+.HTTP Request
+include::build/generated-snippets/get-student-by-id/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-student-by-id/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-student-by-id/curl-request.adoc[]
+
+== Get a student by its ID where the provided ID does not exist
+.HTTP Request
+include::build/generated-snippets/get-student-by-id_returns_-custom-exception_with_error-type_student_not_found/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-student-by-id_returns_-custom-exception_with_error-type_student_not_found/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-student-by-id_returns_-custom-exception_with_error-type_student_not_found/curl-request.adoc[]
+
+== Get all students
+.HTTP Request
+include::build/generated-snippets/get-all-students/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-all-students/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-all-students/curl-request.adoc[]
+
+== Get all courses of a certain student (by student-ID)
+.HTTP Request
+include::build/generated-snippets/get-courses-of-student/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-courses-of-student/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-courses-of-student/curl-request.adoc[]
+
+== Get all courses of a certain student (by student-ID) where the provided ID does not exist
+.HTTP Request
+include::build/generated-snippets/get-courses-of-student_returns_-custom-exception_with_error-type_student_not_found/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/get-courses-of-student_returns_-custom-exception_with_error-type_student_not_found/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/get-courses-of-student_returns_-custom-exception_with_error-type_student_not_found/curl-request.adoc[]
+
+== Edit a student
+.HTTP Request
+include::build/generated-snippets/edit-student/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-student/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-student/curl-request.adoc[]
+
+== Edit a student where the provided first name is too long
+.HTTP Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_first_name_too_long/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_first_name_too_long/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_first_name_too_long/curl-request.adoc[]
+
+== Edit a student where the provided last name is too long
+.HTTP Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_last_name_too_long/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_last_name_too_long/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_last_name_too_long/curl-request.adoc[]
+
+== Edit a student where the provided email has an invalid format
+.HTTP Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_invalid_email_format/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_invalid_email_format/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_invalid_email_format/curl-request.adoc[]
+
+== Edit a student where the provided ID does not exist
+.HTTP Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_student_not_found/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_student_not_found/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_student_not_found/curl-request.adoc[]
+
+== Edit a student where the provided email is already taken by another user
+.HTTP Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_email_already_taken/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_email_already_taken/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/edit-student_returns_-custom-exception_with_error-type_email_already_taken/curl-request.adoc[]
+
+== Delete a student by its ID
+.HTTP Request
+include::build/generated-snippets/delete-student-by-id/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/delete-student-by-id/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/delete-student-by-id/curl-request.adoc[]
+
+== Delete a student by its ID where the provided ID does not exist
+.HTTP Request
+include::build/generated-snippets/delete-student-by-id_returns_-custom-exception_with_error-type_student_not_found/http-request.adoc[]
+.HTTP Response
+include::build/generated-snippets/delete-student-by-id_returns_-custom-exception_with_error-type_student_not_found/http-response.adoc[]
+.cURL Request
+include::build/generated-snippets/delete-student-by-id_returns_-custom-exception_with_error-type_student_not_found/curl-request.adoc[]
